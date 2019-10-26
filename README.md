@@ -1,2 +1,2 @@
 # WorldBank_Capstone
- How does government indicators impact risk of defaut?
+ How does country governance indicators impact risk of defaut?
