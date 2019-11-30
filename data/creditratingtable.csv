@@ -1,0 +1,27 @@
+﻿Grade,Moodys,SP,Fitch
+Prime,Aaa,AAA,AAA
+High Grade,Aa1,AA+,AA+
+Upper medium grade,Aa2,AA,AA
+Upper medium grade,Aa3,AA-,AA-
+Upper medium grade,A1,A+,A+
+Upper medium grade,A2,A,A
+Upper medium grade,A3,A-,A-
+Lower medium grade,Baa1,BBB+,BBB+
+Lower medium grade,Baa2,BBB,BBB
+Lower medium grade,Baa3,BBB-,BBB-
+Non-investment grade speculative,Ba1,BB+,BB+
+Non-investment grade speculative,Ba2,BB,BB
+Non-investment grade speculative,Ba3,BB-,BB-
+Highly speculative,B1,B+,B+
+Highly speculative,B2,B,B
+Highly speculative,B3,B-,B-
+Substantial risks,Caa1,CCC+,CCC+
+Substantial risks,Caa2,CCC,CCC
+Substantial risks,Caa3,CCC-,CCC-
+Extremely speculative,Ca,CC,CC
+Extremely speculative,,,C
+In default with little prospect for recovery,,SD,RD
+In default,C,D,D
+In default,,,DD
+In default,,,DDD
+Not rated,WR,NR,
