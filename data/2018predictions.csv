@@ -5,7 +5,7 @@
 3878,Antigua and Barbuda,Latin America & Caribbean,High income,Extremely speculative
 3881,Aruba,Latin America & Caribbean,High income,Lower medium grade
 3887,Bangladesh,South Asia,Lower middle income,Non-investment grade speculative
-3893,Bermuda,North America,High income,Prime
+3893,Bermuda,North America,High income,Upper medium grade
 3894,Bhutan,South Asia,Lower middle income,Non-investment grade speculative
 3896,Bosnia and Herzegovina,Europe & Central Asia,Upper middle income,Highly speculative
 3897,Botswana,Sub-Saharan Africa,Upper middle income,Upper medium grade
@@ -25,7 +25,7 @@
 3938,"Gambia, The",Sub-Saharan Africa,Low income,Substantial risks
 3943,Greenland,Europe & Central Asia,High income,Upper medium grade
 3944,Grenada,Latin America & Caribbean,Upper middle income,Extremely speculative
-3945,Guam,East Asia & Pacific,High income,Highly speculative
+3945,Guam,East Asia & Pacific,High income,Upper medium grade
 3947,Guinea,Sub-Saharan Africa,Low income,Highly speculative
 3948,Guinea-Bissau,Sub-Saharan Africa,Low income,Highly speculative
 3949,Guyana,Latin America & Caribbean,Upper middle income,Substantial risks
@@ -34,9 +34,9 @@
 3967,Kiribati,East Asia & Pacific,Lower middle income,Highly speculative
 3968,"Korea, Dem. People’s Rep.",East Asia & Pacific,Low income,Substantial risks
 3970,Kosovo,Europe & Central Asia,Lower middle income,Highly speculative
-3972,Kyrgyz Republic,Europe & Central Asia,Lower middle income,Highly speculative
+3972,Kyrgyz Republic,Europe & Central Asia,Lower middle income,Non-investment grade speculative
 3973,Lao PDR,East Asia & Pacific,Lower middle income,Highly speculative
-3977,Liberia,Sub-Saharan Africa,Low income,Substantial risks
+3977,Liberia,Sub-Saharan Africa,Low income,Highly speculative
 3978,Libya,Middle East & North Africa,Upper middle income,Highly speculative
 3979,Liechtenstein,Europe & Central Asia,High income,Prime
 3982,"Macao SAR, China",East Asia & Pacific,High income,Upper medium grade
@@ -46,9 +46,9 @@
 3989,Marshall Islands,East Asia & Pacific,Upper middle income,Highly speculative
 3990,Mauritania,Sub-Saharan Africa,Lower middle income,Highly speculative
 3991,Mauritius,Sub-Saharan Africa,Upper middle income,Lower medium grade
-3993,"Micronesia, Fed. Sts.",East Asia & Pacific,Lower middle income,Highly speculative
+3993,"Micronesia, Fed. Sts.",East Asia & Pacific,Lower middle income,Non-investment grade speculative
 3994,Moldova,Europe & Central Asia,Lower middle income,Highly speculative
-3995,Monaco,Europe & Central Asia,High income,High Grade
+3995,Monaco,Europe & Central Asia,High income,Upper medium grade
 3997,Montenegro,Europe & Central Asia,Upper middle income,Highly speculative
 4000,Myanmar,East Asia & Pacific,Lower middle income,Substantial risks
 4002,Nauru,East Asia & Pacific,Upper middle income,Highly speculative
@@ -57,7 +57,7 @@
 4013,Palau,East Asia & Pacific,High income,Highly speculative
 4016,Paraguay,Latin America & Caribbean,Upper middle income,Substantial risks
 4021,Puerto Rico,Latin America & Caribbean,High income,Non-investment grade speculative
-4026,Samoa,East Asia & Pacific,Upper middle income,Non-investment grade speculative
+4026,Samoa,East Asia & Pacific,Upper middle income,Highly speculative
 4028,Sao Tome and Principe,Sub-Saharan Africa,Lower middle income,Non-investment grade speculative
 4033,Sierra Leone,Sub-Saharan Africa,Low income,Substantial risks
 4037,Solomon Islands,East Asia & Pacific,Lower middle income,Highly speculative
@@ -68,13 +68,13 @@
 4045,St. Vincent and the Grenadines,Latin America & Caribbean,Upper middle income,Highly speculative
 4046,Sudan,Sub-Saharan Africa,Lower middle income,Non-investment grade speculative
 4050,Syrian Arab Republic,Middle East & North Africa,Low income,Highly speculative
-4052,Tajikistan,Europe & Central Asia,Low income,Non-investment grade speculative
+4052,Tajikistan,Europe & Central Asia,Low income,Lower medium grade
 4053,Tanzania,Sub-Saharan Africa,Low income,Highly speculative
-4055,Timor-Leste,East Asia & Pacific,Lower middle income,Highly speculative
+4055,Timor-Leste,East Asia & Pacific,Lower middle income,Substantial risks
 4056,Togo,Sub-Saharan Africa,Low income,Highly speculative
 4057,Tonga,East Asia & Pacific,Upper middle income,Non-investment grade speculative
 4061,Turkmenistan,Europe & Central Asia,Upper middle income,Highly speculative
-4062,Tuvalu,East Asia & Pacific,Upper middle income,Highly speculative
+4062,Tuvalu,East Asia & Pacific,Upper middle income,Non-investment grade speculative
 4070,Vanuatu,East Asia & Pacific,Lower middle income,Highly speculative
 4071,"Venezuela, RB",Latin America & Caribbean,Upper middle income,Extremely speculative
 4073,Virgin Islands (U.S.),Latin America & Caribbean,High income,Highly speculative
