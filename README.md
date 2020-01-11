@@ -5,3 +5,9 @@ The World Bank like any other banking institution has limited resources, and the
 In this project, I look into country governance indicators and how they impact the country's risk of default as rated by independet sovereign debt credit agency's. The main question to be answered is, how does government indicators impact risk of defaut?
 
 ## Process Overview
+
+## Data Sources
+### The World Bank Data Catalogue
+## Non-Technical Presentation
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ny-iaCbJucM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+## Data Insights
