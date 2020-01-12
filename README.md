@@ -9,5 +9,5 @@ In this project, I look into country governance indicators and how they impact t
 ## Data Sources
 ### The World Bank Data Catalogue
 ## Non-Technical Presentation
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ny-iaCbJucM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Presentation Image](http://img.youtube.com/vi/ny-iaCbJucM/0.jpg)](http://www.youtube.com/watch?v=ny-iaCbJucM "Project Non-Technical Presentation")
 ## Data Insights
