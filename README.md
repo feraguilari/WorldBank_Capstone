@@ -11,6 +11,7 @@ Click on the following image to be redirected to the presentation hosted on yout
 ![Process Overview Mindmap](/img/WGI-process.png)
 ## Data Sources
 ### The World Bank's DataBank
+
 Aggregate and individual governance indicators for six dimensions of governance: Voice and Accountability; Political Stability and Absence of Violence/Terrorism; Government Effectiveness; Regulatory Quality; Rule of Law; Control of Corruption. Access the database by following[this link.](https://databank.worldbank.org/source/worldwide-governance-indicators)
 
 ### Countryeconomy.com
