@@ -10,6 +10,13 @@ Click on the following image to be redirected to the presentation hosted on yout
 ## Process Overview
 ![Process Overview Mindmap](/img/WGI-process.png)
 ## Data Sources
-### The World Bank Data Catalogue
+### The World Bank's DataBank
+Aggregate and individual governance indicators for six dimensions of governance: Voice and Accountability; Political Stability and Absence of Violence/Terrorism; Government Effectiveness; Regulatory Quality; Rule of Law; Control of Corruption. Access the database by following[this link.](https://databank.worldbank.org/source/worldwide-governance-indicators)
+
+### Countryeconomy.com
+A sovereign credit rating is the credit rating of a sovereign entity, such as a national government. The sovereign credit rating indicates the risk level of the investing environment of a country and is used by investors when looking to invest in particular jurisdictions, and also takes into account political risk.[Wikipedia](https://en.wikipedia.org/wiki/Credit_rating)
+Go to the website following [this link.](https://countryeconomy.com/ratings)
 
 ## Data Insights
+
+
