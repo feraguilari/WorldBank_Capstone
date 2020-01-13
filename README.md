@@ -23,6 +23,8 @@ Go to the website following [this link.](https://countryeconomy.com/ratings)
 ### Worldwide Governance Indicators Controlled by Investment Grade Category
 ![header](img/WGIvsGrade.png "Indicators boxplots controlled by investment grade category")
 
+The World Bank developed The Worldwide Governance Indicators in 1996, this is when the highest values for most indicators with average values close to 0, except for 'RL.EST' and 'VA.EST', Rule of Law and Voice and Accountability respectively, which started with the lowest observed values. They converge around year 2004 and shortly after that, they all together decrease drastically around year 2006. In more recent years, from 2016 onwards, the indicators show reduced volatility and more stable average values.
+
 ## Conclusion and Recommendations
 I have developed a KNearestNeighbors Classification model that has 51% precision and 65% accuracy scores. the metrics are significant given that there are 8 different classes and the most popular one only had about 25% incidence.
 
