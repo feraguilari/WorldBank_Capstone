@@ -18,8 +18,8 @@ Aggregate and individual governance indicators for six dimensions of governance:
 Access the database by following [this link.](https://databank.worldbank.org/source/worldwide-governance-indicators)
 
 ### Countryeconomy.com
-A sovereign credit rating is the credit rating of a sovereign entity, such as a national government. The sovereign credit rating indicates the risk level of the investing environment of a country and is used by investors when looking to invest in particular jurisdictions, and also takes into account political risk.[Wikipedia](https://en.wikipedia.org/wiki/Credit_rating)
-Go to the website following [this link.](https://countryeconomy.com/ratings)
+A sovereign credit rating is the credit rating of a sovereign entity, such as a national government. The sovereign credit rating indicates the risk level of the investing environment of a country and is used by investors when looking to invest in particular jurisdictions, and also takes into account political risk([Wikipedia](https://en.wikipedia.org/wiki/Credit_rating)).
+Access the website following [this link.](https://countryeconomy.com/ratings)
 
 ## Data Insights
 ### Worldwide Governance Indicators Through Time
