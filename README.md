@@ -36,14 +36,14 @@ When controlling and ordering the Worldwide Governance Indicators for invetment 
 There are ony 3 regions with prime rating grades, North America, Europe and Central Asia, and East Asia Pacific. Sub-Saharan Africa has the most highly sepculative rating grades of all regions. South Asia is mostly awardaded lower medium grades downward. Additinally, Latin America and the Caribbean is the region with the most extremely speculative grades received.
 
 ## The Model
-I trained 3 non parametric classification models, K-NearestNeighbors, RandomForest, GradientBoosting. I chose non-parametric models because the worldwide governance indicators are non-normally distributed. I want to keep the explainability of the models simple, hence I opted not to transform the data to make it more normal. I developed a pipeline to tune the hyper-parameters for the three models with a 5-fold cross-validation GridSearch, optimizing for precision. Precision is a relevant metric in this project beacuse it answers the following question: What proportion of the predicted investment grade classes are correctly predicted? The World Bank relies on this precision because it has to offer competitive loan terms for all levels of risk. The results are shown in the following table:
-
+I trained 3 non-parametric classification models, K-NearestNeighbors, RandomForest, GradientBoosting. I chose non-parametric models because the worldwide governance indicators are non-normally distributed. I want to keep the explainability of the models simple, hence I opted not to transform the data to make it more normal. I developed a pipeline to tune the hyper-parameters for the three models with a 5-fold cross-validation GridSearch, optimizing for precision. Precision is a relevant metric in this project beacuse it answers the following question: What proportion of the predicted investment grade classes are correctly predicted? The World Bank relies on this precision because it has to offer competitive loan terms for all levels of risk. The results are shown in the following table:
+<center>
 | model            | accuracy | precision | recall | f1     |
 |------------------|----------|-----------|--------|--------|
 | knn              | 65.69%   | 51.45%    | 52.28% | 51.49% |
 | GradientBoosting | 66.91%   | 49.97%    | 50.25% | 49.98% |
 | RandomForest     | 54.41%   | 42.37%    | 41.42% | 41.32% |
-
+</center>
 
 
 ## Conclusion and Recommendations
