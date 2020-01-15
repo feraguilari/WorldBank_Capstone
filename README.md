@@ -1,7 +1,9 @@
 # Predicting Risk of Default using Worldwide Governance Indicators (WGI)
 ## Motivation
 I had the oportunity to attend a hackathon organized by The World Bank with the aim to explore new ways of extracting valuable insight from their data that would contribute towards their mission. The World Bank's mission is "to achieve the twin goals of ending extreme poverty and building shared prosperity".  
+
 The World Bank like any other banking institution has limited resources, and the efficient allocation of this resources is crucial to achieve the bank's goals. With various country competing for financing options to improve their countries, how do we choose go gets the resources they need?  
+
 In this project, I look into country governance indicators and how they impact the country's risk of default as rated by independet sovereign debt credit agency's. The main question to be answered is, how does government indicators impact risk of defaut?
 ## Non-Technical Presentation
 Click on the following image to be redirected to the presentation hosted on youtube.
@@ -21,11 +23,19 @@ Go to the website following [this link.](https://countryeconomy.com/ratings)
 
 ## Data Insights
 ### Worldwide Governance Indicators Through Time
-![header](img/WGI_WorldwideAverages.png "Indicators boxplots controlled by investment grade category")
+![header](img/WGI_WorldwideAverages.png "Worldwide governance indicator averages per year")
+
 The World Bank developed The Worldwide Governance Indicators in 1996, this is when the highest values for most indicators with average values close to 0, except for 'RL.EST' and 'VA.EST', Rule of Law and Voice and Accountability respectively, which started with the lowest observed values. They converge around year 2004 and shortly after that, they all together decrease drastically around year 2006. In more recent years, from 2016 onwards, the indicators show reduced volatility and more stable average values.
 ### Worldwide Governance Indicators Controlled by Investment Grade Category
 ![header](img/WGIvsGrade.png "Indicators boxplots controlled by investment grade category")
+
 When controlling and ordering the Worldwide Governance Indicators for invetment grade category according to level of risk, we can notice a decreasing trend for all indicator values. This could mean that there is an association between level of risk and indicator values, where the lower the risk the higher the values for all governance indicators. Governance indicators and risk are inversely related.
+### Regional Distribution of Investment Grade Categories
+![header](img/RegionalGrades.png "Investment grade categories distributed by region")
+
+There are ony 3 regions with prime rating grades, North America, Europe and Central Asia, and East Asia Pacific. Sub-Saharan Africa has the most highly sepculative rating grades of all regions. South Asia is mostly awardaded lower medium grades downward. Additinally, Latin America and the Caribbean is the region with the most extremely speculative grades received.
+
+## The Model
 
 
 ## Conclusion and Recommendations
