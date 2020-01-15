@@ -37,17 +37,24 @@ There are ony 3 regions with prime rating grades, North America, Europe and Cent
 
 ## The Model
 I trained 3 non-parametric classification models, K-NearestNeighbors, RandomForest, GradientBoosting. I chose non-parametric models because the worldwide governance indicators are non-normally distributed. I want to keep the explainability of the models simple, hence I opted not to transform the data to make it more normal. I developed a pipeline to tune the hyper-parameters for the three models with a 5-fold cross-validation GridSearch, optimizing for precision. Precision is a relevant metric in this project beacuse it answers the following question: What proportion of the predicted investment grade classes are correctly predicted? The World Bank relies on this precision because it has to offer competitive loan terms for all levels of risk. The results are shown in the following table:
-<center>
+
 | model            | accuracy | precision | recall | f1     |
 |------------------|----------|-----------|--------|--------|
 | knn              | 65.69%   | 51.45%    | 52.28% | 51.49% |
 | GradientBoosting | 66.91%   | 49.97%    | 50.25% | 49.98% |
 | RandomForest     | 54.41%   | 42.37%    | 41.42% | 41.32% |
-</center>
 
+The best performing model is K-Nearest Neighbors with a precision of a little over 51% and an accuracy of almost 66%. We can see from the table that th erecall score of 52% also outperformed the other models. Gradient Boosting was a close second, although its accuracy of almost 67% surpasses that of K-NN. Since K-NN does not have a feature importance method, I chose to use GradientBoosting's feature importance method as seen in the following image:
+![header](img/TopImportantFeatures.png "Top 10 most important features in GradientBoosting model")
+
+Since no transformations were applied to the data, the interpretability of this plot is very intuitive. We can see that the most important feature in the model is Rule of Law, followed by Regulatory Quality. The least important governance indicator was control of corruption. This is surprising given the worldwide importance given to this issue. 
+
+## Predictions
+Out of the 205 countries included in the Worldwide Governance Indicators for the year of 2018, 81 countries did not receive a sovereign credit rating. I used the model to predict their invetment grade class should they have received a credit rating. Here is a sample containing 10 of those countries (the prediction is in the column 'rating_y'):
+![header](img/predictions.png "Predictions for 10 countries")
 
 ## Conclusion and Recommendations
-I have developed a KNearestNeighbors Classification model that has 51% precision and 65% accuracy scores. The metrics are significant given that there are 8 different classes and the most popular one only had about 25% incidence.
+I have developed a KNearestNeighbors Classification model that has 51% precision and 65% accuracy scores. The metrics are significant given that there are 8 different classes and the most recurring one only had about 25% incidence.
 
 
 This model does not substitute for due dilligence or more complete current models. This model could be thouhgt as a feature engineering tool to be used during preprocessing to develop a new feature, in this case the rating grade, and use it to increase the more robust model's performance.
